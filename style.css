@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 475px;
+	margin: 0 auto;
+	position: relative;
+}
+#main{
+	width: 100%;
+	padding: 50px 0;
+	overflow: hidden;
+	z-index: 1;
+}
+.box{
+	float: left;
+	width: 150px;
+	height: 100px;
+	background: #e3e3e3;
+	border: 1px solid #000;
+	margin: 0 5px 5px 0;
+}
+#navigation{
+	text-align: center;
+	font: 14px Arial;
+}
+#navigation a{
+	color: #000;
+	text-decoration: none;
+}
+#overlay{
+	position: absolute;
+	opacity: 0.5;
+	background: #fff;
+	z-index: 2;
+	display: none;
+}
+#loader{
+	background: url("img/ajax-loader.gif") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -8px;
+}
