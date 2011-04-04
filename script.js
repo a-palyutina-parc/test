@@ -62,7 +62,7 @@ $(document).ready(function() {
 //			navigate: function() {
 //				this.links.click(function() {
 //					alert($(this));
-//					return false;
+//					return false;// byashechka
 //				});
 //			}
 //		}
